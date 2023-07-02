@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fobus1212/praktica/static/css/main.3dfa8ab7.css",
+    "main.js": "/fobus1212/praktica/static/js/main.f29502f0.js",
+    "static/media/b2bg.png": "/fobus1212/praktica/static/media/b2bg.3c233920387a0290689c.png",
+    "static/media/228.png": "/fobus1212/praktica/static/media/228.1c8013da1d0fab8fd257.png",
+    "static/media/b4.png": "/fobus1212/praktica/static/media/b4.ef805315adf6a25b58e7.png",
+    "static/media/k22.png": "/fobus1212/praktica/static/media/k22.235933b49ca13db182fc.png",
+    "static/media/k33.png": "/fobus1212/praktica/static/media/k33.d4508c2e2b7486c88614.png",
+    "static/media/b23.png": "/fobus1212/praktica/static/media/b23.0ef4f525f84c8942abed.png",
+    "static/media/b22.png": "/fobus1212/praktica/static/media/b22.307f1f29ffef1f249f53.png",
+    "static/media/b21.png": "/fobus1212/praktica/static/media/b21.e390ba731e45729e57c2.png",
+    "static/media/k1.png": "/fobus1212/praktica/static/media/k1.13ffd7c79a5ce0e686ce.png",
+    "index.html": "/fobus1212/praktica/index.html",
+    "main.3dfa8ab7.css.map": "/fobus1212/praktica/static/css/main.3dfa8ab7.css.map",
+    "main.f29502f0.js.map": "/fobus1212/praktica/static/js/main.f29502f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfa8ab7.css",
+    "static/js/main.f29502f0.js"
+  ]
+}
