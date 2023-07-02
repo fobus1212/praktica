@@ -1,0 +1,151 @@
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: auto;  
+  font-size: 46px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 100px;
+  position: absolute;
+  top: 206px;
+  margin-left: -225px;
+  width: 419px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: absolute;
+  top: 243px;
+  margin-left: -250px;
+  width: 412px;
+}
+
+.trailer-button {
+  background-color: #00B48A;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 136px;
+  height: 38px;
+  border-radius: 4px;
+  position: absolute;
+  top: 406px;
+  left: 50%;
+  transform: translateX(-45%);
+}
+
+.games-button {
+  background-color: #686C6F;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 148px;
+  height: 38px;
+  border-radius: 4px;
+  position: absolute;
+  top: 406px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logo {
+  width: 600px;
+  height: 640px;
+  position: absolute;
+  top: 708px;
+  left: 669px;
+  right: 669px;
+}
+
+@media (max-width: 1100px) {
+  /* Настройки для мобильных устройств */ 
+  .content {
+    position: absolute;
+    top: -10%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    z-index: auto;  
+    font-size: 10px;
+    width: 100%;
+    height: 100%; 
+}
+  h1 {
+    font-size: 24px;
+    top: calc(96.33% - 1px);
+    left: 190px;
+    right: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
+    top: 190px;
+    left: 215px;
+    right: 20px; 
+    top: calc(90.33% - 1px);
+  }
+
+  .trailer-button,
+  .games-button {
+    font-size: 7px;
+    width: 60px;
+    height: 15px;
+    top: calc(120.33% - 1px);
+    left: -10px;
+    right: 20px; 
+  }
+
+  .games-button {
+    left: 55px; 
+    top: calc(120.33% - 1px);
+  }
+
+}
+
+
+
+@media (min-width: 1101px) {
+  /* Настройки для больших экранов */
+  h1 {
+    font-size: 36px;
+    top: 206px;
+    left: 412px;
+    right: 831px;
+  }
+
+  h2 {
+    font-size: 24px;
+    top: 243px;
+    left: 438px;
+    right: 831px;
+  }
+
+  .trailer-button {
+    top: 406px;
+    left: 434px;
+    right: 831px;
+  }
+
+  .games-button {
+    top: 406px;
+    left: 273px;
+    right: 980px;
+  }
+
+  .logo {
+    top: 708px;
+    left: 669px;
+    right: 669px;
+  }
+}

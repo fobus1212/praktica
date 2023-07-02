@@ -1,0 +1,137 @@
+.header-container {
+  width: 100%;
+  max-width: 1920px;
+  height: 60px;
+  background-color: #373A3C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 8%;
+}
+
+.logo-container img {
+  width: 128px;
+  height: 38px; 
+} 
+
+@media only screen and (min-width: 768px) {
+  .logo-container img {
+    margin-right: 20px;
+  } 
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%; 
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 35px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+  white-space: nowrap;  
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  position: relative; 
+  margin-right: 20px;
+}
+
+.search-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+}
+
+.search-container input {
+  width: 250px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.xbox-container {
+  display: flex;
+  align-items: center;
+  margin-right: -5%; 
+}
+
+.xbox-text {
+  margin-right: 20px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+} 
+.logo-container img {
+  width: 80px;
+  height: 36px; 
+} 
+
+@media only screen and (max-width: 768px) {
+  .logo-container img {
+    width: 64px;
+    height: 20px;
+  }
+
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #373A3C;
+    text-align: center;
+  }
+
+  .search-container {
+    margin: 10px 0;
+  }
+
+  .search-container input {
+    width: 100%;
+    max-width: 130px;  
+    max-height: 20px ;
+    
+  }
+
+  .xbox-text {
+    display: none;
+  }
+
+  .nav-link {
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    padding: 20px 0;
+    border-bottom: 1px solid #FFF;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-list {
+    margin: 0 50px;
+  }
+} 

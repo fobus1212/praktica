@@ -1,0 +1,184 @@
+.body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: calc(100% - 1px);
+    background-color: #f2f2f2; 
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);  
+    
+  }
+  
+  .body2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px; 
+    font-size: 48px; 
+    color: white; 
+  
+    
+  }
+  
+  .body2-content img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(90.33% - 20px); 
+  }
+  
+  .container {
+    flex-basis: calc(33.33% - 20px); /* третья часть доступного пространства для элементов с учетом отступов */
+    margin: 0 10px; /* отступы между элементами */
+  }
+  
+  .container:first-child {
+    margin-left: 3%; /* убираем левый отступ у первого элемента */
+  }
+  
+  .container:last-child {
+    margin-right: 3% /* убираем правый отступ у последнего элемента */
+  }
+  .container-wrapper img { 
+    width: calc(65.33% - 20px);
+height: 187px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20.5%;
+    background-color: #ffffff;
+    text-align: right;
+    margin-bottom: 50px; 
+ 
+  } 
+  .container.item {
+    margin-bottom: 200px;}
+  
+  .container img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+ 
+.container p {
+    margin-top: calc(25.33% - 55px);
+    font-size: 24px;
+    color: #000000; 
+    text-align: center; /* изменено с right на center */
+  }
+  
+  .container h3 {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #000000; 
+    text-align: center; /* изменено с right на center */
+  }
+
+  .img2l{ 
+    width: 63px;
+height: 64px;
+  } 
+  .my-button {
+    display: inline-block;
+    padding: 14px 20%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    color: #fff;
+    text-align: left; 
+    font-size: 11px;
+    border: none; 
+    margin-bottom: 20px; 
+    white-space: nowrap;
+  } 
+  
+.my-button:hover {
+    background-color: #aaa;
+    cursor: pointer;
+  }
+  
+  .my-button:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px darkblue; 
+    
+  } 
+  
+  
+  
+  @media screen and (max-width: 950px) { 
+    .body2 { 
+        height: calc(40.33% - 200px);
+    }
+    .body2-content h1 {
+      font-size: 24px;
+    }
+  
+    .body2-content p {
+      font-size: 18px; 
+      position: absolute;  
+      margin-top: calc(50.33% - 20px);
+    }
+  
+    .body2-content h2 {
+      font-size: 24px;
+    }
+  
+    .container {
+      width: 100%; 
+      
+    }
+  
+    .container-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 70px; 
+      }
+  
+    .container p {
+      margin-top: 20px;
+    }
+  
+    .container h3 {
+      margin-top: 10px;
+    } 
+    .my-button {
+        display: inline-block;
+        padding: 14px calc(12.33% - 50px);;
+        border-radius: 10px;
+        background-color: lightgreen;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        border: none; 
+        margin-bottom: 20PX;
+      }
+  }
+  
+  
+  
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container-wrapper {
+      justify-content: center;
+    }
+  
+    .container {
+      width: 30%;
+    } 
+    
+  }
+  
+  @media screen and (min-width: 1441px) {
+    .container-wrapper {
+      justify-content: space-between;
+    }
+  }

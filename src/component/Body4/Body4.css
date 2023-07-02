@@ -1,0 +1,120 @@
+.image-container4 {
+  position: relative;
+  width: 100%; 
+  
+  margin: 0 auto; 
+}
+  
+  .image-container4 img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .content4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: auto;  
+    font-size: 46px;
+  }
+  
+  .image-container4 h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    position: absolute;
+    top: 40px;
+    margin-left: -1000px;
+    width: 419px;
+  }
+  
+  .image-container4 h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    position: absolute;
+    top: 120px;
+    margin-left: -1020px;
+    width: 412px;
+  }
+  
+  .trailer-button4 {
+    background-color: #00B48A;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 278px;
+    height: 60px;
+    border-radius: 4px;
+   position: absolute;   
+    top: 18rem;  
+    left: -13rem;
+    transform: translate(-50%, -50%);
+  }
+  
+  .games-button4 {
+    background-color: #686C6F;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 207px;
+    height: 60px;
+    border-radius: 4px;
+    position: absolute;
+    top: 18rem;
+    left: -30rem;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (max-width: 1150px) {
+    /* Настройки для мобильных устройств */ 
+    .image-container4  {
+      display: flex;
+      width: 100%; 
+    
+    } 
+    .image-container4 img {
+      display: block;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15vh; 
+    } 
+    .image-container4 h1 {
+      color: #FFFFFF;
+      font-size: 24px;
+      position: absolute;
+      top: 20px;
+      margin-left: -270px;
+      width: 419px;
+    }
+    
+    .image-container4 h2 {
+      color: #FFFFFF;
+      font-size: 16px;
+      position: absolute;
+      top: 80px;
+      margin-left: -350px;
+      width: 412px;
+    }
+ 
+  
+    
+  
+    .trailer-button4,
+    .games-button4 {
+      font-size: 7px;
+      width: 90px;
+      height: 45px;
+      top: calc(100.33% + 200px);
+      left: -60px;
+     
+    }
+  
+    .games-button4 {
+      left: 60px; 
+      top: calc(100.33% +200px); 
+      
+    }
+  }
+  
+ 
